@@ -1,0 +1,130 @@
+/* primary colors */
+/* neutral colors */
+/* fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+/* ^ = Karla */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Karla';
+}
+
+body {
+  background-color: #e5eff5;
+}
+
+h3, h1 {
+  color: #ffff;
+}
+
+h3 {
+  margin: 30px;
+  font-size: 17px;
+  position: absolute;
+  top: -10px;
+}
+
+h2 {
+  margin-left: 30px;
+  color: #c0df34;
+  font-size: 18px;
+  position: absolute;
+  top: 60px;
+}
+
+#main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 550px;
+  height: 400px;
+  background-color: #ffff;
+  border-radius: 10px;
+}
+
+#main #princ1 {
+  width: 275px;
+  height: 200px;
+  background-color: #2bb3b1;
+  position: absolute;
+  bottom: 0px;
+  border-radius: 0px 0px 0px 10px;
+}
+
+#main #princ1 #price {
+  margin-left: 30px;
+  position: absolute;
+  top: 30px;
+}
+
+#main #princ1 #pricem {
+  position: absolute;
+  top: 45px;
+  right: 100px;
+  color: #e5eff5;
+  letter-spacing: -1px;
+  font-size: 16px;
+}
+
+#main #princ1 #princ1text {
+  margin-left: 30px;
+  font-size: 13px;
+  color: #ffff;
+  position: absolute;
+  top: 85px;
+}
+
+#main #princ1 #signup {
+  background-color: #c0df34;
+  border: none;
+  width: 200px;
+  height: 40px;
+  position: absolute;
+  left: 30px;
+  bottom: 18px;
+  border-radius: 4px;
+  color: #ffff;
+  -webkit-box-shadow: 2px 5px 10px rgba(87, 73, 73, 0.609);
+          box-shadow: 2px 5px 10px rgba(87, 73, 73, 0.609);
+}
+
+#main #princ1 #signup:hover {
+  cursor: pointer;
+}
+
+#main #princ2 {
+  width: 275px;
+  height: 200px;
+  background-color: #4abebd;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  border-radius: 0px 0px 10px 0px;
+}
+
+#main #princ2 #princ2text {
+  color: #ffff;
+  font-size: 12px;
+  position: absolute;
+  bottom: 5px;
+  left: 27px;
+  line-height: 18px;
+}
+
+#main #kg #kgtitle {
+  color: #33b1ae;
+  margin: 30px;
+  font-size: 23px;
+}
+
+#main #kg #kgtext {
+  margin-left: 30px;
+  color: #c0c3c6;
+  font-size: 15px;
+  position: absolute;
+  top: 100px;
+  line-height: 23px;
+}
+/*# sourceMappingURL=style.css.map */
